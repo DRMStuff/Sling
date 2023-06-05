@@ -1,7 +1,7 @@
 if [ ! -d /home/mini_cs ] 
 then
    echo "streaming server missing !"
-   mkdir /home/mini_cs && wget https://github.com/DRM-Scripts/SlingX/raw/main/directsling.tar.gz -O /home/mini_cs/mini_cs.tar.gz && cd /home/mini_cs && tar zxvf mini_cs.tar.gz && scripts/setup.sh && scripts/ramdisk_all.sh && scripts/start.sh
+   mkdir /home/mini_cs && wget https://github.com/DRMStuff/Sling/raw/main/directsling.tar.gz -O /home/mini_cs/mini_cs.tar.gz && cd /home/mini_cs && tar zxvf mini_cs.tar.gz && scripts/setup.sh && scripts/ramdisk_all.sh && scripts/start.sh
 fi
 
 if [ ! -d /home/wwwdir ] 
@@ -13,19 +13,19 @@ fi
 if [ ! -d /home/wwwdir/config ] 
 then
    echo "wwwdir missing!"
-   mkdir /home/wwwdir/config && wget https://github.com/DRM-Scripts/SlingX/raw/main/slingjson.zip -O /home/wwwdir/config/slingjson.zip  
+   mkdir /home/wwwdir/config && wget https://github.com/DRMStuff/Sling/raw/main/slingjson.zip -O /home/wwwdir/config/slingjson.zip  
 fi
 
 if [ ! -d /home/wwwdir/css ] 
 then
    echo "wwwdir missing!"
-   mkdir /home/wwwdir/css && wget https://github.com/DRM-Scripts/SlingX/raw/main/css.zip -O /home/wwwdir/css/css.zip  
+   mkdir /home/wwwdir/css && wget https://github.com/DRMStuff/Sling/raw/main/css.zip -O /home/wwwdir/css/css.zip  
 fi
 
 if [ ! -d /home/wwwdir/scripts ] 
 then
    echo "wwwdir missing!"
-   mkdir /home/wwwdir/scripts && wget https://github.com/DRM-Scripts/SlingX/raw/main/scripts.zip -O /home/wwwdir/scripts/scripts.zip  
+   mkdir /home/wwwdir/scripts && wget https://github.com/DRMStuff/Sling/raw/main/scripts.zip -O /home/wwwdir/scripts/scripts.zip  
 fi
 
 
