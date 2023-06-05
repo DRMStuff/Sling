@@ -5,6 +5,6 @@
 ## INSTALL COMMAND
 
 ```bash
-curl https://raw.githubusercontent.com/DRM-Scripts/SlingX/main/install.sh | bash
+curl https://raw.githubusercontent.com/DRMStuff/Sling/main/install.sh | bash
 ```
 ### NO SUPPORT WITH BE PROVIDED - EDUCATIONAL PURPOSES ONLY
